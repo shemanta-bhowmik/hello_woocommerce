@@ -22,6 +22,7 @@
 	register_nav_menus( [
 
 		'primary_menu'	=> __( 'Primary Menu', 'evaly' ),
+		'footer_menu'	=> __( 'Footer Menu', 'evaly' ),
 	
 	] );
 

@@ -213,3 +213,15 @@ a {
 .evaly-single-post .evaly-single-post-title {
     margin-bottom: 50px;
 }
+
+
+/* Evaly Footer */
+.evaly-site-footer {
+    padding: 20px 0;
+    background-color: #000000;
+}
+.evaly-site-footer .footer-content {
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}

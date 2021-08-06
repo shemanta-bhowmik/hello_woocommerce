@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container {
+    width:  70%;
+    margin: auto;
+}
+.container-blog {
+    width:  50%;
+    margin: auto;
+}
+a.button {
+    color: #ffffff;
+    background-color: #c9151b;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+p {
+    line-height: 1.5em;
+    font-size: 18px;
+}
+.evaly-title {
+    margin-bottom: 10px;
+}
+
+/** Fonts **/
+/* Direct google fonts link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* Using font face  */
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Ubuntu-Light.ttf );
+}
+@font-face {
+    font-family: EvalyLight;
+    src:  url( fonts/Ubuntu-Light.ttf );
+}
+@font-face {
+    font-family: EvalyRegular;
+    src:  url( fonts/Ubuntu-Regular.ttf );
+}
+@font-face {
+    font-family: EvalySemiBold;
+    src: url( fonts/Ubuntu-Medium.ttf );
+}
+@font-face {
+    font-family: EvalyBold;
+    src:  url( fonts/Ubuntu-Bold.ttf );
+}
+
+/**
+ * 
+ * Top Bar Styling
+ * 
+ * */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+p,
+span {
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+.evaly-top-bar-header {
+    border-bottom: 1px solid #e2e8f0;
+    overflow: hidden;
+    padding:  10px 0;
+}
+/* Header Top Bar Left  */
+.evaly-top-bar-header .evaly-tob-bar-right-contact-info {
+    width:  50%;
+    float:  left;
+}
+.evaly-top-bar-header .evaly-tob-bar-right-contact-info ul {
+    list-style: none;
+}
+.evaly-top-bar-header .evaly-tob-bar-right-contact-info ul li {
+    float:  left;
+    margin-right: 10px;
+}
+.evaly-top-bar-header .evaly-tob-bar-right-contact-info ul a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+.evaly-top-bar-header .evaly-tob-bar-right-contact-info ul i {
+    color:  #c9151b;
+    margin-right: 2px;
+}
+/* Header Top Bar Right  */
+.evaly-top-bar-header .evaly-top-bar-right-info-section {
+    width: 50%;
+    float:  left;
+    text-align: right;
+    font-size: 14px;
+}
+.evaly-top-bar-header .evaly-top-bar-right-info-section i {
+    color:  #c9151b;
+}
+
+
+/* Evaly Logo Area */
+.evaly-header {
+    padding: 30px 0;
+    overflow: hidden;
+}
+.evaly-header .logo {
+    width: 20%;
+    float: left;
+}
+.evaly-header .logo img {
+    width: 100px;
+}
+.evaly-header .search {
+    width: 80%;
+    float: left;
+}
+.evaly-header .search .evaly-header-search-form input[type="text"] {
+    width: 92%;
+    float: left;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding:  8px 15px;
+    border-color: #c9151b;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.evaly-header .search .evaly-header-search-form button {
+    width: 8%;
+    float: left;
+    background-color: #c9151b;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 9.5px;
+    cursor: pointer;
+}
+.evaly-header .search .evaly-header-search-form button i {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/* Evaly Menu Section */
+.evaly-menu-bar {
+    background-color: #000000;
+    padding: 15px 0;
+}
+.evaly-menu-bar ul {
+    text-align: center;
+}
+.evaly-menu-bar ul li {
+    display: inline;
+    margin: auto 10px;
+    list-style: none;
+}
+.evaly-menu-bar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* Post Section */
+.container-blog img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.evaly-content-section {
+    padding: 60px 0;
+}
+.evaly-content-section .evaly-page-title-section {
+    padding: 30px 20px 60px;
+}
+.evaly-content-section .evaly-page-title-section .evaly-page-title {
+    font-size: 72px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.evaly-content-section .evaly-posts-section .evaly-post-article {
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.evaly-content-section .evaly-posts-section .evaly-post-title {
+    margin-bottom: 10px;
+}
+.evaly-content-section .evaly-posts-section .evaly-post-title a {
+    color: #c9151b;
+    text-decoration: none;
+}
+.evaly-content-section .evaly-posts-section .evaly-post-content {
+    font-size:  16px;
+    line-height: 1.5em;
+}
+
+
+/* Evaly Single Page Post  */
+.evaly-single-post {
+    padding: 60px 20px;
+}
+.evaly-single-post .evaly-single-post-title {
+    margin-bottom: 50px;
+}
+
+
+/* Evaly Footer Widget Section */
+.evaly-footer-widgets-section {
+    padding: 60px 0;
+    border-top: 1px solid #cccccc;
+    overflow: hidden;
+}
+.evaly-footer-widgets-section .evaly-footer-logo img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+.evaly-footer-widgets-section .evaly-footer-widget {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+.evaly-footer-widgets-section .evaly-footer-widget:last-child {
+    margin-right: 0;
+}
+.evaly-footer-widgets-section .evaly-footer-widget-menu ul {
+    list-style: none;
+    float: right;
+    text-align: right;
+}
+.evaly-footer-widgets-section .evaly-footer-widget-menu ul li {
+    display: block;
+}
+.evaly-footer-widgets-section .evaly-footer-widget-menu ul a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+}
+.evaly-footer-widgets-section .evaly-footer-widget-menu ul i {
+    color:  #c9151b;
+    margin-right: 2px;
+}
+
+
+/* Evaly Footer Section */
+.evaly-site-footer {
+    padding: 20px 0;
+    background-color: #000000;
+    overflow: hidden;
+}
+.evaly-site-footer .evaly-footer {
+    width: 50%;
+    float: left;
+}
+.evaly-site-footer .footer-content {
+    color: #ffffff;
+    font-size: 15px;
+}
+.evaly-site-footer .evaly-footer ul {
+    list-style: none;
+    float: right;
+    text-align: right;
+}
+.evaly-site-footer .evaly-footer ul li {
+    float: left;
+    margin-right: 15px;
+}
+.evaly-site-footer .evaly-footer ul li:last-child {
+    margin-right: 0;
+}
+.evaly-site-footer .evaly-footer ul a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+.evaly-site-footer .evaly-footer ul i {
+    color:  #c9151b;
+    margin-right: 2px;
+}
